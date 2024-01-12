@@ -1,12 +1,16 @@
 # How to deploy Google Cloud Artifact Registry Docker Image to Google Kubernetes Engine (GKE)
 
-## 1. Set up Google Cloud SDK: Make sure you have the Google Cloud SDK installed and initialized on your local machine
+## 1. Set up Google Cloud SDK
+
+Make sure you have the Google Cloud SDK installed and initialized on your local machine
 
 ```
 gcloud init
 ```
 
-## 2. Authenticate with GCP: Use the gcloud auth login command to authenticate with Google Cloud
+## 2. Authenticate with GCP
+
+Use the gcloud auth login command to authenticate with Google Cloud
 
 Configure Docker to use gcloud as a credential helper:
 
