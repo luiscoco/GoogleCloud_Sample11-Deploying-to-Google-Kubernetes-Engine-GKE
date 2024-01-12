@@ -1,4 +1,8 @@
-# How to deploy Google Cloud Artifact Registry Docker Image to Google Kubernetes Engine (GKE)
+# How to deploy .NET8 WebAPI Docker Image stored in Google Cloud Artifact Registry to Google Kubernetes Engine (GKE)
+
+To create and upload the .NET8 WebAPI Docker to Google Cloud Artifact Registry repo, see: 
+
+https://github.com/luiscoco/GoogleCloud_Sample10-Artifact-Registry
 
 ## 1. Set up Google Cloud SDK
 
