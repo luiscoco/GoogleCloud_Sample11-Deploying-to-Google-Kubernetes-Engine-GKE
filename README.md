@@ -25,6 +25,16 @@ gcloud auth configure-docker
 
 ## 3. Pull the Docker Image from Artifact Registry
 
+Navigate to Google Cloud Artifact Registry list
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/77e2dd25-943c-4fc0-997e-5ebe5729db64)
+
+See the repos list
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/2a43e7bf-a03c-49ec-93f7-2f7d8fa94ae3)
+
+
+
 ```
 docker pull LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
 ```
