@@ -32,6 +32,10 @@ Replace LOCATION, PROJECT-ID, REPOSITORY, IMAGE, and TAG with your specific deta
 
 ## 4. Set up your Kubernetes cluster 
 
+Search for GKE
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/6bd04ccf-8ba2-4965-a916-b1f205381c24)
+
 Enable GKE API
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/d10d453b-85bd-49d1-87b3-c0d7b27500cb)
