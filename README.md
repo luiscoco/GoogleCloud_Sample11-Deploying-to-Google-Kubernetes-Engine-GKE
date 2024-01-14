@@ -47,6 +47,21 @@ If you haven't already, create a Kubernetes cluster in GKE
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/ebd2acf4-7a4a-47d6-add9-233057094284)
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/3f186a4a-2ca6-418b-95dd-52934ca9b97b)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/082f6af2-5195-40f6-ab47-c759574208fd)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/3a39cd70-8359-49ac-9ddf-313391efa9fb)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/c14d39e1-b9fd-4629-b615-8e84095b72ba)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/808a0827-e2d2-421c-a71b-f868b0226168)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/b9d38bea-9672-4554-8837-f243ef974a19)
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/dcade725-9fac-4999-8cb9-4db6ddf1f492)
+
+
 
 ## 5. Configure kubectl to use your GKE cluster
 
