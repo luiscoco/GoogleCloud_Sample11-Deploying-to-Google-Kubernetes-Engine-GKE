@@ -61,7 +61,7 @@ If you haven't already, create a Kubernetes cluster in GKE
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/dcade725-9fac-4999-8cb9-4db6ddf1f492)
 
-
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/210ea496-92fe-452c-95be-86fcea02750c)
 
 ## 5. Configure kubectl to use your GKE cluster
 
