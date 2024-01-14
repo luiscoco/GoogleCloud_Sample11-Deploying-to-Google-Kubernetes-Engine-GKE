@@ -49,6 +49,14 @@ Finally we click on the Pull tab
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/44262e61-e43f-4ee6-8299-fa46ef8d7260)
 
+We copy the command to authenticate and pull the image from the repo
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/cf3d138e-500f-4e40-9866-31968b9ed790)
+
+```
+gcloud auth configure-docker europe-southwest1-docker.pkg.dev
+```
+
 ```
 docker pull LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
 ```
