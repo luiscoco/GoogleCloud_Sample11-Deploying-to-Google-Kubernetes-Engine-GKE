@@ -113,14 +113,11 @@ and we run this command:
 gcloud components install gke-gcloud-auth-plugin
 ```
 
-```
-gcloud container clusters get-credentials CLUSTER_NAME --zone ZONE --project PROJECT_ID
-```
+We configure the KBE cluster to use it
 
 ```
 gcloud container clusters get-credentials autopilot-cluster-1 --region europe-southwest1 --project extreme-axon-381209
 ```
-
 
 ## 6. Deploy the image to GKE
 
