@@ -33,7 +33,21 @@ See the repos list
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/2a43e7bf-a03c-49ec-93f7-2f7d8fa94ae3)
 
+We click on our repo
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/a6f96874-7270-4bd3-8106-b7becc8bd881)
+
+Then we click on myimagename
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/9921f2fd-85e5-47c1-8dc3-d68a1f8e3790)
+
+We also the image
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/db5345e6-1193-4c87-803e-b7020c7b8d0f)
+
+Finally we click on the Pull tab
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/44262e61-e43f-4ee6-8299-fa46ef8d7260)
 
 ```
 docker pull LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
