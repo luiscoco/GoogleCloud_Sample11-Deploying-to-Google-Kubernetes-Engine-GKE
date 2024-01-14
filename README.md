@@ -63,6 +63,12 @@ docker pull LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
 
 Replace LOCATION, PROJECT-ID, REPOSITORY, IMAGE, and TAG with your specific details
 
+```
+docker pull europe-southwest1-docker.pkg.dev/extreme-axon-381209/myfirstrepo/myimagename:v1.0
+```
+
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/7e7158ca-d565-4f54-937b-4a4624a6758c)
+
 ## 4. Set up your Kubernetes cluster 
 
 Search for GKE
