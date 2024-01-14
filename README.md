@@ -4,8 +4,6 @@ To create and upload the .NET8 WebAPI Docker image to Google Cloud Artifact Regi
 
 https://github.com/luiscoco/GoogleCloud_Sample10-Artifact-Registry
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/29b78cea-e7ae-4e96-976c-50b86a296cf3)
-
 
 ## 1. Set up Google Cloud SDK
 
@@ -45,7 +43,7 @@ Enable GKE API
 
 If you haven't already, create a Kubernetes cluster in GKE
 
-![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/f9ab2c70-5727-4050-82b3-bbbafd106243)
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/29b78cea-e7ae-4e96-976c-50b86a296cf3)
 
 ![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/ebd2acf4-7a4a-47d6-add9-233057094284)
 
