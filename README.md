@@ -105,7 +105,9 @@ If you haven't already, create a Kubernetes cluster in GKE
 
 We first follow the Kubectl authentication plugin installation instructions
 
-We enter in this web page: https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+We enter in this web page: 
+
+https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
 
 and we run this command:
 
@@ -116,7 +118,9 @@ gcloud components install gke-gcloud-auth-plugin
 We configure the KBE cluster to use it
 
 ```
-gcloud container clusters get-credentials autopilot-cluster-1 --region europe-southwest1 --project extreme-axon-381209
+gcloud container clusters get-credentials autopilot-cluster-1 ^
+--region europe-southwest1 ^
+--project extreme-axon-381209
 ```
 
 ## 6. Deploy the image to GKE
