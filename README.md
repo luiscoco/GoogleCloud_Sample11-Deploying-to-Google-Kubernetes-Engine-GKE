@@ -123,6 +123,8 @@ gcloud container clusters get-credentials autopilot-cluster-1 --region europe-so
 
 You can use a Kubernetes deployment YAML file to deploy the image
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/c7821b20-b830-4ebc-9051-ec034dc9b43c)
+
 **deployment.yml**
 
 ```yaml
@@ -142,10 +144,37 @@ spec:
     spec:
       containers:
       - name: your-app
-        image: LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE:TAG
+        image: europe-southwest1-docker.pkg.dev/extreme-axon-381209/myfirstrepo/myimagename:v1.0
 ```
 
-## 7. Apply this configuration 
+**service.yml**
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: your-app-service
+spec:
+  selector:
+    app: your-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
+```
+
+We can run these commands to apply the manifest files
+
+```
+kubectl apply -f deployment.yml
+```
+
+```
+kubectl apply -f service.yml
+```
+
+## 7. Apply this configuration and very the running application
 
 We run this command to apply the Kubernetes manifest file 
 
@@ -155,14 +184,22 @@ kubectl apply -f deployment.yaml
 
 Verify the Deployment: Check that your deployment is running as expected.
 
+
 ```
 kubectl get deployments
 ```
 
+We can verify the deployment and service data with the command:
 
+```
+kubectl get all
+```
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/6d3f898c-ad6b-480f-a303-cbdddc39447c)
 
+We can connect to the application with this URL: http://34.175.17.245/weatherforecast
 
+![image](https://github.com/luiscoco/GoogleCloud_Sample11-Deploying-to-Google-Kubernetes-Engine-GKE/assets/32194879/a16e9910-dbbd-478f-9f20-7783e8ef3e85)
 
 
 
