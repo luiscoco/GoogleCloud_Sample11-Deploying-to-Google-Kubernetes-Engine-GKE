@@ -1,0 +1,6 @@
+@GoogleCloudWebAPI_HostAddress = http://localhost:5226
+
+GET {{GoogleCloudWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

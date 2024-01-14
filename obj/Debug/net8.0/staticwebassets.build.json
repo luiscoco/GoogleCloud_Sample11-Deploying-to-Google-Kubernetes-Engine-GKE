@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "N/X2XIhWp6RUzBkV8uXBAakmlU95uMBUi51WZAkckmo=",
+  "Source": "GoogleCloudWebAPI",
+  "BasePath": "_content/GoogleCloudWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
